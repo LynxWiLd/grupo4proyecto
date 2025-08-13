@@ -1,9 +1,19 @@
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* PALETA DE COLORES PREDEFINIDOS*/
+:root {
+  --rojo: #ca3e47;
+  --negro-0: #313131;
+  --negro-1: #414141;
+  --negro-2: #525252;
 }
-
-main {
-  flex-grow: 1;
+header{
+  background: var(--rojo);
+}
+main{
+  background: var(--negro-0);
+}
+footer{
+  background: var(--rojo);
+}
+a{
+  color: white;
 }
