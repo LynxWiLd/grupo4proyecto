@@ -5,15 +5,36 @@
   --negro-1: #414141;
   --negro-2: #525252;
 }
-header{
+header {
   background: var(--rojo);
 }
-main{
+main {
   background: var(--negro-0);
 }
-footer{
+footer {
   background: var(--rojo);
 }
-a{
+a {
+  color: white;
+}
+
+/* acordeon */
+
+.custom-accordion-item {
+  border: none;
+  margin-bottom: 5px;
+}
+
+.custom-accordion-btn {
+  background-color: #525252;
+  color: white;
+  font-weight: 500;
+}
+.custom-accordion-btn.collapsed:hover {
+  background-color: #313131;
+}
+
+.accordion-body {
+  background-color: #414141;
   color: white;
 }
