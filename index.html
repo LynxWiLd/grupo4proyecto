@@ -70,7 +70,84 @@
         </div>
       </nav>
     </header>
-    <main class="min-vh-100 fondo-main">
+    <main class="min-vh-100">
+      <!-- Carrusel -->
+      <section class="container my-4">
+        <div
+          id="carouselCineflixIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCineflixIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCineflixIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCineflixIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/accion/bad_boys_ride.jpg"
+                class="d-block w-100 rounded-3"
+                alt="carrusel1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/Comedia/happy_gilmore_2.jpg"
+                class="d-block w-100 rounded-3"
+                alt="carrusel2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/Terror/terrifier_3.jpg"
+                class="d-block w-100 rounded-3"
+                alt="carrusel3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCineflixIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCineflixIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       <!-- acordeon -->
       <section>
         <article class="container" style="background-color: #ca3e47">
