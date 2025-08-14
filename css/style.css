@@ -22,10 +22,9 @@ a {
 .carousel {
   position: relative;
   height: 800px;
-  object-fit: cover;
 }
 .carousel img{
-  position: absolute;
+  background-size: cover;
 }
 
 /* acordeon */
