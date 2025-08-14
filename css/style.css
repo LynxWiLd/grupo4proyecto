@@ -17,6 +17,16 @@ footer {
 a {
   color: white;
 }
+/* Carousel */
+
+.carousel {
+  position: relative;
+  height: 800px;
+  object-fit: cover;
+}
+.carousel img{
+  position: absolute;
+}
 
 /* acordeon */
 
