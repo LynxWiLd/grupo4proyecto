@@ -50,5 +50,9 @@ a {
 }
 
 .boton-planes {
-  margin-top: 100px; /* ajustá el valor a gusto */
+  margin-top: 100px; 
 }
+.btn-red {
+    background-color: #ca3e47;
+    border: none;
+  }
