@@ -48,3 +48,7 @@ a {
   background-color: #414141;
   color: white;
 }
+
+.boton-planes {
+  margin-top: 100px; /* ajustá el valor a gusto */
+}
