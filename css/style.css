@@ -19,13 +19,16 @@ a {
 }
 /* Carousel */
 
-.carousel {
-  position: relative;
-  height: 800px;
-  object-fit: cover;
+.img-cover {
+  height: 100%; /* Ocupa todo el alto del contenedor */
+  object-fit: cover; /* Cubre todo, recortando lo necesario */
+  object-position: center; /* Centra la imagen al recortar */
 }
-.carousel img{
-  position: absolute;
+.carousel-item {
+  height: 100vh; /* Ajusta el alto del carrusel a tu gusto */
+}
+.carousel-item img {
+  height: 100%; /* Para que se adapte al alto que le pusimos */
 }
 
 /* acordeon */
