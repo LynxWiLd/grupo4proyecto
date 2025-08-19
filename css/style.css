@@ -51,3 +51,12 @@ a {
   background-color: #414141;
   color: white;
 }
+
+
+
+/*media para pagina error404*/
+@media (width >= 992px ) {
+  .errorimg{
+    width: 75%! important;
+  }
+}
