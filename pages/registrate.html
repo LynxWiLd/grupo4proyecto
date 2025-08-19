@@ -70,7 +70,71 @@
         </div>
       </nav>
     </header>
-    <main class="min-vh-100 fondo-main"></main>
+    <main class="min-vh-100 fondo-main">
+      <section class="container">
+        <article class="row justify-content-center">
+          <table class="table text-center mt-5">
+            <thead>
+              <tr>
+                <th scope="col">plan</th>
+                <th scope="col">precio</th>
+                <th scope="col">resolucion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>basico</th>
+                <td>$8.000</td>
+                <td>720p</td>
+              </tr>
+              <tr>
+                <th>estandar</th>
+                <td>$11.000</td>
+                <td>1080p</td>
+              </tr>
+              <tr>
+                <th>premium</th>
+                <td>$16.000</td>
+                <td>4k</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <form class="text-center text-white">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="nombre" required />
+            </div>
+            <div class="mb-3">
+              <label for="apellido" class="form-label">apellido</label>
+              <input type="text" class="form-control" id="apellido" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="plan" class="form-label">Selecciona un plan</label>
+              <select class="form-select" id="plan" required>
+                <option value="">-- Elige un plan --</option>
+                <option value="basico">Básico - $8.000</option>
+                <option value="estandar">Estándar - $11.000</option>
+                <option value="premium">Premium - $16.000</option>
+              </select>
+            </div>
+
+            <div class="text-center">
+              <button type="button" class="btn btn-red text-white btn-lg">
+                <a href="./error404.html"> 💳 Suscribirse</a>
+              </button>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
     <footer class="text-white text-center py-4">
       <div>
         <!-- LOGO -->
@@ -83,10 +147,18 @@
         <div class="container border-bottom border-white pt-3 pb-3">
           <p class="mb-2 fs-5">Seguinos en:</p>
           <div class="d-flex justify-content-center gap-4 fs-4">
-            <a href="./error404.html" class="text-white"><i class="bi bi-instagram"></i></a>
-            <a href="./error404.html" class="text-white"><i class="bi bi-twitter-x"></i></a>
-            <a href="./error404.html" class="text-white"><i class="bi bi-facebook"></i></a>
-            <a href="./error404.html" class="text-white"><i class="bi bi-tiktok"></i></a>
+            <a href="./error404.html" class="text-white"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="./error404.html" class="text-white"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a href="./error404.html" class="text-white"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="./error404.html" class="text-white"
+              ><i class="bi bi-tiktok"></i
+            ></a>
           </div>
         </div>
         <!-- INFO -->

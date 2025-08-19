@@ -52,11 +52,15 @@ a {
   color: white;
 }
 
-
-
 /*media para pagina error404*/
-@media (width >= 992px ) {
-  .errorimg{
-    width: 75%! important;
+@media (width >= 992px) {
+  .errorimg {
+    width: 75% !important;
   }
 }
+
+
+.btn-red {
+    background-color: #ca3e47;
+    border: none;
+  }
