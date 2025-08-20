@@ -72,3 +72,24 @@ a {
   background-color: #ca3e47;
   border: none;
 }
+.boton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0; /* Oculto por defecto */
+}
+
+.boton i {
+  font-size: 30px;
+  color: white;
+}

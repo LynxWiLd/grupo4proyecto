@@ -3,3 +3,18 @@
   color: var(--blanco);
   border: 1px solid var(--negro-2);
 }
+.portadas {
+  display: inline-block;
+}
+.portadas img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Mostrar botón al pasar el mouse */
+.portadas:hover .boton {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1); /* animación suave */
+}
