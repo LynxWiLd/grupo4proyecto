@@ -15,68 +15,45 @@
   --naranja: #f39c12; /* acento cálido */
 }
 header {
-  background: var(--rojo);
-}
-main {
   background: var(--negro-0);
 }
+main {
+  background: var(--negro-1);
+}
 footer {
-  background: var(--rojo);
+  background: var(--negro-0);
 }
 a {
   color: white;
 }
-/* Carousel */
-
+/*>>>>>>>>>>>>>> PORTADA */
+/* 
 .img-cover {
-  height: 100%; /* Ocupa todo el alto del contenedor */
-  object-fit: cover; /* Cubre todo, recortando lo necesario */
-  object-position: center; /* Centra la imagen al recortar */
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .carousel-item {
-  height: 100vh; /* Ajusta el alto del carrusel a tu gusto */
+  height: 100vh;
 }
 .carousel-item img {
-  height: 100%; /* Para que se adapte al alto que le pusimos */
-}
-
-/* acordeon */
-
-.custom-accordion-item {
-  border: none;
-  margin-bottom: 5px;
-}
-
-.custom-accordion-btn {
-  background-color: #525252;
-  color: white;
-  font-weight: 500;
-}
-.custom-accordion-btn.collapsed:hover {
-  background-color: #313131;
-}
-
-.accordion-body {
-  background-color: #414141;
-  color: white;
-}
-
-.card-img-center{
+  height: 100%;
+} */
+/*>>>>>>>>>>>>>> GRILLA PRINCIPAL*/
+.card-img-center {
   object-fit: cover !important;
   height: 100%;
 }
-.card-body{
-height: 85px;
+.card-body {
+  height: 85px;
 }
 .contenedor {
   position: relative;
   display: inline-block;
 }
-
 .etiqueta {
   cursor: pointer;
 }
-
 .ventana-emergente {
   display: none;
   position: absolute;
@@ -90,11 +67,9 @@ height: 85px;
   border-radius: 10px;
   z-index: 1;
 }
-
 .contenedor:hover .ventana-emergente {
   display: block; /* Muestrar la ventana al pasar el cursor*/
 }
-
 .color-img {
   color: transparent;
   background-size: cover;
@@ -103,13 +78,32 @@ height: 85px;
   background-image: url(../img/accion/thebeekeeper.jpg);
 }
 
+/*>>>>>>>>>>>>>> ACORDEON */
+
+.custom-accordion-item {
+  border: none;
+  margin-bottom: 5px;
+}
+.custom-accordion-btn {
+  background-color: #525252;
+  color: white;
+  font-weight: 500;
+}
+.custom-accordion-btn.collapsed:hover {
+  background-color: #313131;
+}
+.accordion-body {
+  background-color: #414141;
+  color: white;
+}
+
 /*media para pagina error404*/
 @media (width >= 992px) {
   .errorimg {
     width: 75% !important;
   }
 }
-
+/* BOTON PLAY */
 .btn-red {
   background-color: #ca3e47;
   border: none;
@@ -130,21 +124,17 @@ height: 85px;
   transition: opacity 0.3s ease, transform 0.3s ease;
   opacity: 0; /* Oculto por defecto */
 }
-
 .boton i {
   font-size: 30px;
   color: white;
 }
-
-
 /*media para pagina error404*/
 @media (width >= 992px) {
   .errorimg {
     width: 75% !important;
   }
 }
-
 .btn-red {
-    background-color: #ca3e47;
-    border: none;
-  }
+  background-color: #ca3e47;
+  border: none;
+}
