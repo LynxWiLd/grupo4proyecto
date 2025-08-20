@@ -1,9 +1,18 @@
 /* PALETA DE COLORES PREDEFINIDOS*/
 :root {
   --rojo: #ca3e47;
+  --rojo-claro: #e25a63;
+  --rojo-oscuro: #a13239;
+
   --negro-0: #313131;
   --negro-1: #414141;
   --negro-2: #525252;
+  --gris: #7a7a7a;
+  --gris-claro: #d9d9d9;
+  --blanco: #f5f5f5;
+
+  --azul: #3a6ea5; /* acento frío */
+  --naranja: #f39c12; /* acento cálido */
 }
 header {
   background: var(--rojo);
@@ -93,6 +102,40 @@ height: 85px;
   background-repeat: no-repeat;
   background-image: url(../img/accion/thebeekeeper.jpg);
 }
+
+/*media para pagina error404*/
+@media (width >= 992px) {
+  .errorimg {
+    width: 75% !important;
+  }
+}
+
+.btn-red {
+  background-color: #ca3e47;
+  border: none;
+}
+.boton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0; /* Oculto por defecto */
+}
+
+.boton i {
+  font-size: 30px;
+  color: white;
+}
+
 
 /*media para pagina error404*/
 @media (width >= 992px) {
