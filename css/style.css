@@ -90,6 +90,12 @@ a {
   border-radius: 5px;
 }
 
+.color-grilla-categorias{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+
 /*>>>>>>>>>>>>>> ACORDEON */
 
 .custom-accordion-item {
