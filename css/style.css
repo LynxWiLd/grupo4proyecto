@@ -156,3 +156,23 @@ a {
   background-color: #ca3e47;
   border: none;
 }
+/*portada*/
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/img/portada/tomcruise.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-text{
+  text-align: start;
+  width: 85%;
+}
+.fondo {
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 5px;
+}
