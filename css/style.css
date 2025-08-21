@@ -78,6 +78,24 @@ a {
   background-image: url(../img/accion/thebeekeeper.jpg);
 }
 
+.color-grilla{
+  background: #a13239;
+  height: 660px;
+  border-radius: 5px;
+}
+
+.color-grilla-terror{
+  background: #a13239;
+  height: 680px;
+  border-radius: 5px;
+}
+
+.color-grilla-categorias{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+
 /*>>>>>>>>>>>>>> ACORDEON */
 
 .custom-accordion-item {
