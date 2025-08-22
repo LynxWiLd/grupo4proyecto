@@ -176,3 +176,11 @@ a {
   opacity: 0.7;
   border-radius: 5px;
 }
+
+/*login*/
+.img{
+  background-image: url(../img/login/sin-titulo-1_dkqr.2560.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(60%);
+}
