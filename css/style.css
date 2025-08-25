@@ -96,6 +96,36 @@ a {
   border-radius: 5px;
 }
 
+/*medida para telefonos*/
+
+@media (375px <= width <=667px){
+  .color-grilla{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+.color-grilla-terror{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+}
+
+/* medida para tablets*/
+
+@media(768px <= width <=991px){
+
+.color-grilla{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+.color-grilla-terror{
+  background: #a13239;
+  height: auto;
+  border-radius: 5px;
+}
+}
 /*>>>>>>>>>>>>>> ACORDEON */
 
 .custom-accordion-item {
